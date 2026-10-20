@@ -1,19 +1,19 @@
-# :earth_americas: GDP dashboard template
+# Dashboard Performa Media Sosial
 
-A simple Streamlit app showing the GDP of different countries in the world.
+Dashboard Streamlit untuk melihat engagement rate, impression dan engagement bulanan, serta ringkasan performa per tahun dari `data/bsd_2023_2025.csv`.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+Engagement rate dihitung sebagai total like, komentar, share, dan save dibagi total impression.
 
 ### How to run it on your own machine
 
 1. Install the requirements
 
    ```
-   $ pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 2. Run the app
 
    ```
-   $ streamlit run streamlit_app.py
+   streamlit run streamlit_app.py
    ```
